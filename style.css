@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Reddit Mono", serif;
+}
+#m-menu {
+  display: none;
+}
+#mob-menu-close {
+  display: none;
+}
+
+#popup {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #m-menu {
+    display: block;
+  }
+  #nav {
+    display: none;
+  }
+  #p-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; /* Number of lines displayed before it truncate */
+    overflow: hidden;
+  }
+}
+
+/* Design and developed by Akashbk201 */
